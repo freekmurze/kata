@@ -13,7 +13,7 @@ class FizzBuzz
      * Translate the given number(s) to a fizz buzz result
      *
      * @param  int|array $number
-     * @return string
+     * @return string|array
      */
     public function translate($number)
     {
