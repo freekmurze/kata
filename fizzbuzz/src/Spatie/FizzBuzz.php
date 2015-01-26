@@ -69,7 +69,7 @@ class FizzBuzz
         $fizzBuzzArray = [];
 
         foreach ($numberArray as $number) {
-            $fizzBuzzArray[] = $this->translate($number);
+            $fizzBuzzArray[] = $this->translateSingleNumber($number);
         }
 
         return $fizzBuzzArray;
